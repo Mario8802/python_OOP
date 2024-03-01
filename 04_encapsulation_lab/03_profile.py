@@ -1,3 +1,9 @@
+# import re
+# pattern_for_rusername = r"\S{5,15}"
+# pattern_for_password = r"^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+# no regex no pain :D
+
+
 class Profile:
     def __init__(self, username, password):
         self.username = username
