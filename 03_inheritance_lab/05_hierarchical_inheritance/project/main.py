@@ -2,7 +2,7 @@ from project.cat import Cat
 from project.dog import Dog
 
 d = Dog()
-c = Cat()
+c = Cat() 
 
 print(d.eat())
 print(c.eat())
