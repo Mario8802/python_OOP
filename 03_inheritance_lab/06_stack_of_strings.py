@@ -6,7 +6,7 @@ class Stack:
         self.data.append(el)
 
     def pop(self):
-        return self.data.pop()
+        return self.data.pop() 
 
     def top(self):
         return self.data[-1]
